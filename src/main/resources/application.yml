@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+app:
+  name: Bank API
+
+security:
+  jwt:
+    secret: "please_accept_my_friend_request_on_LinkedIn"
+    ttl-seconds: 3600
